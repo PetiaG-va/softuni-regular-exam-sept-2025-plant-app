@@ -1,12 +1,14 @@
+import { Link } from "react-router";
+
 export default function Header() {
     return (
         <header>
             <h2>Plant App</h2>
             <nav>
-                <a href="home.html">Home</a>
-                <a href="catalog.html">Catalog</a>
-                <a href="login.html">Login</a>
-                <a href="register.html">Register</a>
+                <Link to="/">Home</Link>
+                <Link to="/catalog">Catalog</Link>
+                <Link to="/login">Login</Link>
+                <Link to="/register">Register</Link>
             </nav>
         </header>
     )
