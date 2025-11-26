@@ -1,7 +1,7 @@
 {
   "plants": [
     {
-      "_id": 1,
+      "id": 1,
       "name": "Aloe Vera",
       "scientific": "Aloe barbadensis miller",
       "water": "1 time per week",
@@ -10,7 +10,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Aloe_vera_flower.JPG"
     },
     {
-      "_id": 2,
+      "id": 2,
       "name": "Monstera Deliciosa",
       "scientific": "Monstera deliciosa",
       "water": "2 times per week",
@@ -19,16 +19,16 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Monstera_deliciosa2.jpg"
     },
     {
-      "_id": 3,
+      "id": 3,
       "name": "Ficus Lyrata",
       "scientific": "Ficus lyrata",
       "water": "1 time per week",
       "light": "Bright light",
       "abstract": "Fiddle leaf fig (Ficus lyrata) sometimes gets a finicky reputation. It's not the easiest houseplant to grow, but its lovely large leaves and tree form make it worth a little effort and a good choice even for the beginning gardener. These small trees are well adapted to indoor temperatures and filtered light and are hardy enough to survive less-than-ideal conditions. If you have a window that receives bright morning light you can grow this fig. Plant in quality soil, establish a consistent watering schedule and it grows reliably and fairly quickly to between six and ten feet tall with little fuss. Fiddle leaf fig is toxic to people and pets.",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ficus_lyrata_%28F_iddle_Leaf_Fig%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ficus_lyrata_%28Fiddle_Leaf_Fig%29.jpg"
     },
     {
-      "_id": 4,
+      "id": 4,
       "name": "Peace Lily",
       "scientific": "Spathiphyllum",
       "water": "1 time per week",
@@ -37,7 +37,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spathiphyllum_cochlearispathum_RTBG.jpg"
     },
     {
-      "_id": 5,
+      "id": 5,
       "name": "Snake Plant",
       "scientific": "Sansevieria trifasciata",
       "water": "Once every 2 weeks",
