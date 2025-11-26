@@ -1,0 +1,44 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "scientific": "Aloe barbadensis miller",
+      "water": "1 път седмично",
+      "light": "Силна светлина",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Aloe_vera_flower.JPG"
+    },
+    {
+      "id": 2,
+      "name": "Monstera Deliciosa",
+      "scientific": "Monstera deliciosa",
+      "water": "2 пъти седмично",
+      "light": "Средна светлина",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Monstera_deliciosa2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ficus Lyrata",
+      "scientific": "Ficus lyrata",
+      "water": "Веднъж седмично",
+      "light": "Ярка светлина",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ficus_lyrata_%28Fiddle_Leaf_Fig%29.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Peace Lily",
+      "scientific": "Spathiphyllum",
+      "water": "Веднъж седмично",
+      "light": "Слаба светлина",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spathiphyllum_cochlearispathum_RTBG.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Snake Plant",
+      "scientific": "Sansevieria trifasciata",
+      "water": "Веднъж на 2 седмици",
+      "light": "Средна до силна светлина",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sansevieria_trifasciata.jpg"
+    }
+  ]
+}
