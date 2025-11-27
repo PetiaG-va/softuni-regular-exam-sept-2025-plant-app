@@ -2,43 +2,43 @@
   "plants": [
     {
       "id": 1,
-      "name": "Aloe Vera",
+      "title": "Aloe Vera",
       "scientific": "Aloe barbadensis miller",
       "water": "Once per week",
       "light": "Bright light",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Aloe_vera_flower.JPG"
+      "imageUrl": "/images/aloevera.png"
     },
     {
       "id": 2,
-      "name": "Monstera Deliciosa",
+      "title": "Monstera Deliciosa",
       "scientific": "Monstera deliciosa",
       "water": "Twice per week",
       "light": "Medium light",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Monstera_deliciosa2.jpg"
+      "imageUrl": "/images/monstera_deliciosa.png"
     },
     {
       "id": 3,
-      "name": "Ficus Lyrata",
+      "title": "Ficus Lyrata",
       "scientific": "Ficus lyrata",
       "water": "Once per week",
       "light": "Bright light",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ficus_lyrata_%28Fiddle_Leaf_Fig%29.jpg"
+      "imageUrl": "/images/ficus_lyrata.png"
     },
     {
       "id": 4,
-      "name": "Peace Lily",
+      "title": "Peace Lily",
       "scientific": "Spathiphyllum",
       "water": "Once per week",
       "light": "Low light",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spathiphyllum_cochlearispathum_RTBG.jpg"
+      "imageUrl": "/images/peace_lily.png"
     },
     {
       "id": 5,
-      "name": "Snake Plant",
+      "title": "Snake Plant",
       "scientific": "Sansevieria trifasciata",
       "water": "Once every 2 weeks",
       "light": "Medium to bright light",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sansevieria_trifasciata.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sansevieria_trifasciata.jpg"
     }
   ]
 }

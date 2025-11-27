@@ -9,7 +9,7 @@ export default function Catalog() {
             <div className="cards-grid" id="catalog-plants">
                 <img src="" alt="" />
                 <p className="title"></p>
-                <p className=""></p>
+                <p className="scientific"></p>
             </div>
 
             <div className="empty-state" id="empty-catalog">
