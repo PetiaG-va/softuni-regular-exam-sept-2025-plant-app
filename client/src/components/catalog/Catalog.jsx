@@ -6,7 +6,11 @@ export default function Catalog() {
                 <button className="btn" id="add-plant-btn">+ Добави растение</button>
             </div>
 
-            <div className="cards-grid" id="catalog-plants"></div>
+            <div className="cards-grid" id="catalog-plants">
+                <img src="" alt="" />
+                <p className="title"></p>
+                <p className=""></p>
+            </div>
 
             <div className="empty-state" id="empty-catalog">
                 <div className="empty-state-icon">🌱</div>
