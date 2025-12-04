@@ -4,6 +4,7 @@
       "id": 1,
       "title": "Aloe Vera",
       "scientific": "Aloe barbadensis miller",
+      "description": "",
       "water": "Once per week",
       "light": "Bright light",
       "imageUrl": "/images/aloevera.png"
@@ -12,6 +13,7 @@
       "id": 2,
       "title": "Monstera Deliciosa",
       "scientific": "Monstera deliciosa",
+      "description": "", 
       "water": "Twice per week",
       "light": "Medium light",
       "imageUrl": "/images/monstera_deliciosa.png"
@@ -20,6 +22,7 @@
       "id": 3,
       "title": "Ficus Lyrata",
       "scientific": "Ficus lyrata",
+      "description": "",
       "water": "Once per week",
       "light": "Bright light",
       "imageUrl": "/images/ficus_lyrata.png"
@@ -28,6 +31,7 @@
       "id": 4,
       "title": "Peace Lily",
       "scientific": "Spathiphyllum",
+      "description": "",
       "water": "Once per week",
       "light": "Low light",
       "imageUrl": "/images/peace_lily.png"
@@ -36,9 +40,10 @@
       "id": 5,
       "title": "Snake Plant",
       "scientific": "Sansevieria trifasciata",
+      "description": "",
       "water": "Once every 2 weeks",
       "light": "Medium to bright light",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sansevieria_trifasciata.jpg"
+      "imageUrl": "/images/snake_plant.png"
     }
   ]
 }

@@ -1,4 +1,18 @@
+import { useEffect, useState } from "react"
+import { useParams } from "react-router"
+
 export default function Details() {
+
+    const {plantId} = useParams();
+    const [plant, setPlant] = useState({});
+
+    useEffect(() => {
+        fetch(`http://localhost:4000/plants/${plantId}`)
+            .then(response => response.json())
+            .then(result => setPlant(result))
+            .catch(err => alert(err.message))
+    }, [plantId]); 
+ 
     return (
         <div id="details-page" className="page">
             <div className="details-container">
@@ -6,17 +20,17 @@ export default function Details() {
                     <div className="details-icon" id="details-icon"></div>
                 </div>
                 <div className="details-content">
-                    <h2 id="details-name"></h2>
+                    <h2 id="details-name">{plant.title}</h2>
                     <div className="details-type" id="details-type"></div>
-                    <p className="details-description" id="details-description"></p>
+                    <p className="details-description" id="details-description">{plant.description}</p>
                     <div className="details-info-grid">
                         <div className="info-item">
                             <strong>☀️ Светлина</strong> 
-                            <span id="details-light"></span>
+                            <span id="details-light">{plant.light}</span>
                         </div>
                         <div className="info-item">
                             <strong>💧 Поливане</strong> 
-                            <span id="details-water"></span>
+                            <span id="details-water">{plant.water}</span>
                         </div>
                     </div>
                     <div className="details-actions">

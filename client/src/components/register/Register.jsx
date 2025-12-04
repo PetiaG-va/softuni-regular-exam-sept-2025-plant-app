@@ -19,7 +19,7 @@ export default function Register() {
                     <div className="form-actions">
                         <button type="submit" className="btn" >Регистрирай се</button>
                     </div>
-                    <p>Вече имаш акаунт? <a href="#" data-nav="login" >Влез</a></p>
+                    <p>Вече имаш акаунт? <a href="/" data-nav="login" >Влез</a></p>
                 </form>
             </div>
         </div>

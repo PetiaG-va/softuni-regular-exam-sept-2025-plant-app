@@ -14,7 +14,6 @@ function App() {
             <div className="app-wrapper">
                     <Navigation />
 
-
                     <main>
                         <div className="container">
                             <Routes>
@@ -22,16 +21,13 @@ function App() {
                                 <Route path="/plants" element={<Catalog />} />
                                 <Route path="/login" element={<Login />} />
                                 <Route path="/register" element={<Register />} />
-                                <Route path="/catalog/:plantId/details" element={<Details />} />
+                                <Route path="/plants/:plantId/details" element={<Details />} />
                                 {/* <Add />
                         <Edit /> */}
 
                             </Routes>
-
                         </div>
-
                     </main>
-
             </div>
         </>
     )
