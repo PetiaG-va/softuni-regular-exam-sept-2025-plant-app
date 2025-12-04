@@ -1,15 +1,17 @@
+import { Link } from "react-router";
+
 export default function Navigation() {
     return (
         <nav>
             <div className="nav-container">
-                <a href="/" className="logo" data-nav="home" id="nav-logo">🌱 Plant Care</a>
+                <Link to="/" className="logo" data-nav="home" id="nav-logo">🌱 Plant Care</Link>
                 <div className="nav-links">
-                    <a href="/" data-nav="home" className="active">Home</a>
-                    <a href="/plants" data-nav="catalog">Plants</a>
+                    <Link to="/" data-nav="home" className="active">Home</Link>
+                    <Link to="/plants" data-nav="catalog">Plants</Link>
 
                     <div className="user-section" id="auth-section">
-                        <a href="/login" data-nav="login">Login</a>
-                        <a href="/register" data-nav="register">Register</a>
+                        <Link to="/login" data-nav="login">Login</Link>
+                        <Link to="/register" data-nav="register">Register</Link>
                     </div>
 
                     <div className="user-section" id="user-section" >
