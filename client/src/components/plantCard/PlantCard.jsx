@@ -11,10 +11,8 @@ export default function PlantCard({
     return (
         <div className="card-container">
             <div className="plant-card">
-                <div className="card-decoration"></div>
+                
                 <div className="card-content">
-                    <div className="plant-icon-wrapper">
-                    </div>
                     <h2 className="plant-name">{title}</h2>
                     <div className="decorative-line">
                         <img src={imageUrl} alt={title} />

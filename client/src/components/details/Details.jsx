@@ -3,7 +3,7 @@ import { useParams } from "react-router"
 
 export default function Details() {
 
-    const {plantId} = useParams();
+    const { plantId } = useParams();
     const [plant, setPlant] = useState({});
 
     useEffect(() => {
@@ -11,43 +11,49 @@ export default function Details() {
             .then(response => response.json())
             .then(result => setPlant(result))
             .catch(err => alert(err.message))
-    }, [plantId]); 
- 
+    }, [plantId]);
+
     return (
         <div id="details-page" className="page">
             <div className="details-container">
                 <div className="details-header">
                     <div className="details-icon" id="details-icon"></div>
+                    <h2 id="details-name">{plant.title}</h2>
+                    <div className="details-type" id="details-type">{plant.scientific}</div>
                 </div>
                 <div className="details-content">
-                    <h2 id="details-name">{plant.title}</h2>
-                    <div className="details-type" id="details-type"></div>
-                    <p className="details-description" id="details-description">{plant.description}</p>
-                    <div className="details-info-grid">
-                        <div className="info-item">
-                            <strong>☀️ Светлина</strong> 
-                            <span id="details-light">{plant.light}</span>
-                        </div>
-                        <div className="info-item">
-                            <strong>💧 Поливане</strong> 
-                            <span id="details-water">{plant.water}</span>
+                    <div className="details-row">
+                        
+
+                        <div className="details-info-grid">
+                            <div className="info-item">
+                                <strong>☀️ Light</strong>
+                                <span id="details-light">{plant.light}</span>
+                            </div>
+                            <div className="info-item">
+                                <strong>💧 Water</strong>
+                                <span id="details-water">{plant.water}</span>
+                            </div>
                         </div>
                     </div>
+
+                    <p className="details-description" id="details-description">{plant.description}</p>
+                    
                     <div className="details-actions">
-                        <button className="btn" data-nav="catalog">← Назад</button>
+                        <button className="btn" data-nav="catalog">← Back</button>
                         <button
                             className="btn btn-secondary"
                             id="edit-details-btn"
                             style={{ display: "none" }}
                         >
-                            ✏️ Редактирай
+                            ✏️ Edit
                         </button>
                         <button
                             className="btn btn-danger"
                             id="delete-details-btn"
                             style={{ display: "none" }}
                         >
-                            🗑️ Изтрий
+                            🗑️ Delete
                         </button>
                     </div>
                 </div>
