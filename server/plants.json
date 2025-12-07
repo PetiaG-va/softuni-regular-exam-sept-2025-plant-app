@@ -4,19 +4,21 @@
       "_id": 1,
       "title": "Aloe Vera",
       "scientific": "Aloe barbadensis miller",
-      "description": "",
+      "description": "Aloe vera, commonly grown as a houseplant, is known for its leaves which contain a soothing gel used on sunburns and other skin irritations. With over 300 species (the most common being Aloe barbadensis miller), this tropical succulent features fleshy lance-shape leaves with jagged edges that grow out from a basal rosette. Given the right growing conditions, spiky flowers will appear on the end of stalks in shades of yellow, red, or orange. Consuming the leaves is toxic for people.1 The leaves are also toxic to dogs and cats.",
       "water": "Once per week",
       "light": "Bright light",
-      "imageUrl": "/images/aloevera.png"
+      "imageUrl": "/images/aloevera.png",
+      "id": "0905"
     },
     {
       "_id": 2,
       "title": "Split-leaf philodendron",
       "scientific": "Monstera deliciosa",
-      "description": "Monstera deliciosa is a fast-growing tropical plant known for its large, glossy, split leaves and dramatic shape. Commonly called the Swiss cheese plant or split-leaf philodendron, it adds bold greenery to indoor spaces and climbs as it matures. This evergreen grows about one to two feet per year and reaches full size in around three years. It thrives in warm, humid conditions with dappled or partial light, well-drained peat-based soil, and temperatures between 65°F and 85°F. While Monstera deliciosa is easy to care for, it is toxic to both humans and pets.", 
+      "description": "Monstera deliciosa is a fast-growing tropical plant known for its large, glossy, split leaves and dramatic shape. Commonly called the Swiss cheese plant or split-leaf philodendron, it adds bold greenery to indoor spaces and climbs as it matures. This evergreen grows about one to two feet per year and reaches full size in around three years. It thrives in warm, humid conditions with dappled or partial light, well-drained peat-based soil, and temperatures between 65°F and 85°F. While Monstera deliciosa is easy to care for, it is toxic to both humans and pets.",
       "water": "Twice per week",
       "light": "Medium light",
-      "imageUrl": "/images/monstera_deliciosa.png"
+      "imageUrl": "/images/monstera_deliciosa.png",
+      "id": "6329"
     },
     {
       "_id": 3,
@@ -25,7 +27,8 @@
       "description": "Fiddle leaf fig (Ficus lyrata) sometimes gets a finicky reputation. It's not the easiest houseplant to grow, but its lovely large leaves and tree form make it worth a little effort and a good choice even for the beginning gardener. These small trees are well adapted to indoor temperatures and filtered light and are hardy enough to survive less-than-ideal conditions. If you have a window that receives bright morning light you can grow this fig. Plant in quality soil, establish a consistent watering schedule and it grows reliably and fairly quickly to between six and ten feet tall with little fuss. Fiddle leaf fig is toxic to people and pets.",
       "water": "Once per week",
       "light": "Bright light",
-      "imageUrl": "/images/ficus_lyrata.png"
+      "imageUrl": "/images/ficus_lyrata.png",
+      "id": "70ba"
     },
     {
       "_id": 4,
@@ -34,7 +37,8 @@
       "description": "The peace lily is an evergreen flowering tropical plant from the Spathiphyllum genus native to Central and South America. Outside of its hardiness zones (11-12 USDA), many people grow the peace lily indoors. Peace lilies are not true lilies, but they are members of the Araceae family. The genus includes many types of peace lilies, but in general, they have large, glossy, and oval leaves. They typically bloom in the spring, though a healthy peace lily might bloom twice a year, resulting in several months of flowers. Peace lilies are easy to grow and may live for 20 years or more with proper care. They grow moderately and reach maturity in around three years. Be mindful of where you place your peace lily in the house because the plant is toxic to dangerous to humans, toxic to dogs, and poisonous to cats. Peace lilies grow best in bright, indirect light with fertile, organic soil. Here are the main care requirements for growing peace lilies: Usually grown as a houseplant indoors. Prefers rich, moderately moist soil and filtered sunlight. Keep temperature conditions consistent between 65 to 80°F. Prefers to be under-watered rather than overwatered. Fertilize frequently over the summer.",
       "water": "Once per week",
       "light": "Low light",
-      "imageUrl": "/images/peace_lily.png"
+      "imageUrl": "/images/peace_lily.png",
+      "id": "ebe9"
     },
     {
       "_id": 5,
@@ -43,7 +47,8 @@
       "description": "Snake plants are one of the most popular houseplants, for good reason. It's incredibly drought-tolerant, with the ability to go weeks without water in low and medium lighting conditions. They tolerate low light (hence why they're so often seen in office buildings) but will thrive in bright light, sending up new leaves and stronger variegation. Snake plants are available in dozens of varieties and cultivars, with stiff-sword like leaves colored in bands of green, yellow, and cream. It's a hard-to-kill plant that makes it a go-to for any newer plant parent or anyone not interested in weekly watering duties. Snake plant is a good choice for beginners because it tolerates a range of growing conditions. This low-maintenance container plant adds decorative interest when planted indoors.",
       "water": "Once every 2 weeks",
       "light": "Medium to bright light",
-      "imageUrl": "/images/snake_plant.png"
+      "imageUrl": "/images/snake_plant.png",
+      "id": "640a"
     }
   ]
 }

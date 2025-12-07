@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router"
+import { useNavigate, useParams } from "react-router"
 
 export default function Details() {
-
+    const navigate = useNavigate();
     const { plantId } = useParams();
     const [plant, setPlant] = useState({});
 
@@ -12,6 +12,25 @@ export default function Details() {
             .then(result => setPlant(result))
             .catch(err => alert(err.message))
     }, [plantId]);
+
+    const deletePlantHandler = async () => {
+        const isConfirmed = confirm(`Do you want to delete this plant ${plant.title}`);
+
+        if (!isConfirmed) {
+            return;
+        }
+
+        try {
+            await fetch(`http://localhost:4000/plants/${plantId}`, {
+                method: 'DELETE'
+            });
+
+            navigate('/plants');
+
+        } catch (error) {
+            alert('Unable to delete plant', error.message);
+        }
+    }
 
     return (
         <div id="details-page" className="page">
@@ -44,14 +63,15 @@ export default function Details() {
                         <button
                             className="btn btn-secondary"
                             id="edit-details-btn"
-                            style={{ display: "none" }}
+                            style={{ display: "block" }}
                         >
                             ✏️ Edit
                         </button>
                         <button
                             className="btn btn-danger"
                             id="delete-details-btn"
-                            style={{ display: "none" }}
+                            style={{ display: "block" }}
+                            onClick={deletePlantHandler}
                         >
                             🗑️ Delete
                         </button>
