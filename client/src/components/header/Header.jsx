@@ -1,6 +1,9 @@
 import { Link } from "react-router";
+import Logout from "./logout/Logout.jsx";
 
-export default function Navigation() {
+export default function Navigation({
+    setUser
+}) {
     return (
         <nav>
             <div className="nav-container">
@@ -14,10 +17,7 @@ export default function Navigation() {
                         <Link to="/register" data-nav="register">Register</Link>
                     </div>
 
-                    <div className="user-section" id="user-section" >
-                        <span className="user-name" id="user-name"></span>
-                        <button className="btn-logout" id="logout-btn">Logout</button>
-                    </div>
+                    <Logout setUser={setUser} />
                 </div>
             </div>
         </nav>
